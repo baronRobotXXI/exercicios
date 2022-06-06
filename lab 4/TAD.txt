@@ -1,0 +1,34 @@
+GERA_PTO
+entrada: nenhuma
+pré-condição: nenhuma
+processo: cria uma struct ponto na memória
+saída: retorna o endereço do ponto criado
+pós-condição: ponto criado com sucesso
+
+SET_PTO
+entrada: uma struct ponto 
+pré-condição: a struct ser criada com sucesso
+processo: armazena os valores definidos na struct
+saída: nenhuma
+pós-condição: valores armazenados na struct
+
+GET_PTO
+entrada: uma struct ponto
+pré-condição: a struct ter sido criada com sucesso
+processo: pega o ponto da memória
+saída: devolve o endereco do ponto
+pós-condição: endereco devolvido
+
+LIBERA_PTO
+entrada: uma struct ponto
+pré-condição: a struct existir
+processo: libera a struct da memória
+saída: nenhuma
+pós-condição: endereço de memória liberado
+
+DISTANCIA_PTO
+entrada: duas structs ponto
+pré-condição: as structs existirem
+processo: calcula a distancia entre os pontos
+saída: o valor calculado
+pós-condição: o valor estar calculado

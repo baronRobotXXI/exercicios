@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1654090723 source:e:\aed1\lab 4\ex_lab4\ponto.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"ponto.h"
+
+1654091321 e:\aed1\lab 4\ex_lab4\ponto.h
+
+1654106297 e:\aed1\lab 4\ex_lab4\ponto.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1654034438 source:e:\aed1\lab 4\ex_lab4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ponto.c"
+	"ponto.h"
+
+1654091321 source:e:\aed1\lab 4\ex_lab4\ponto.h
+
+1654106389 source:d:\aed1\lab 4\ex_lab4\ponto.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"ponto.h"
+
+1654091321 d:\aed1\lab 4\ex_lab4\ponto.h
+
