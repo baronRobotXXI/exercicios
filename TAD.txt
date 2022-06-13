@@ -1,0 +1,55 @@
+CriaLista
+pré-condição: endereço da lista ser válido
+entrada: endereço da lista
+processo: aloca o espaço para a lista 
+saída: endereço da lista criada
+pós-condição: lista criada
+
+ListaVazia
+pré-condição: endereço da lista ser válido
+entrada: endereço da lista
+processo: verifica o preenchimento da lista
+saída: 1 - sucesso, 0 - falha
+pós-condição: nenhuma
+
+ListaCheia
+pré-condição: endereço da lista ser válido
+entrada: endereço da lista
+processo: verifica o preenchimento da lista
+saída: 1 - sucesso, 0 - falha
+pós-condição: nenhuma
+
+InsereElemento
+pré-condição: endereço da lista ser válido, lista não estar cheia
+entrada: endereço da lista, elemento a ser inserido
+processo: insere o elemento na lista
+saída: 1 - sucesso, 0 - falha
+pós-condição: lista com 1 elemento a mais
+
+RemoveElemento
+pré-condição: endereço da lista ser válido, lista não estar vazia
+entrada: endereço da lista, elemento a ser removido
+processo: remove o elemento da lista
+saída: 1 - sucesso, 0 - falha
+pós-condição: lista com 1 elemento a menos
+
+ObtemValorElemento
+pré-condição: endereço da lista ser válido, lista não estar vazia
+entrada: endereço da lista, posição do elemento a ser consultado, ponteiro para retorno
+processo: consulta o elemento na lista
+saída: 1 - sucesso, 0 - falha
+pós-condição: nenhuma
+
+ImprimeLista
+pré-condição: endereço da lista ser válido
+entrada: endereço da lista
+processo: imprime a lista
+saída: lista impressa
+pós-condição: nenhuma
+
+LiberaLista
+pré-condição: nenhuma
+entrada: endereço do endereço da lista
+processo: libera a lista da memória
+saída: nenhuma
+pós-condição: memória liberada

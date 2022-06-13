@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1654716597 source:c:\users\yuri\documents\ex_lab5-2\lista_int1.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_int1.h"
+
+1654716597 c:\users\yuri\documents\ex_lab5-2\lista_int1.h
+
+1654718997 source:c:\users\yuri\documents\ex_lab5-2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_int1.h"
+
+1654866204 source:e:\ex_lab5-2\lista_int1.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_int1.h"
+
+1654716598 e:\ex_lab5-2\lista_int1.h
+
+1654718998 source:e:\ex_lab5-2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista_int1.h"
+
