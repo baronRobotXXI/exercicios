@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1657656511 source:c:\users\yuri\documents\ex_lab8-2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha_dyn.h"
+
+1657656487 c:\users\yuri\documents\ex_lab8-2\pilha_dyn.h
+
+1657656585 source:c:\users\yuri\documents\ex_lab8-2\pilha_dyn.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha_dyn.h"
+
