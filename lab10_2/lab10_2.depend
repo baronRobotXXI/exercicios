@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1658790238 source:c:\users\yuri\documents\lab10_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila_cont.h"
+
+1658789945 c:\users\yuri\documents\lab10_2\fila_cont.h
+
+1658790502 source:c:\users\yuri\documents\lab10_2\fila_cont.c
+	<stdio.h>
+	<stdlib.h>
+	"fila_cont.h"
+

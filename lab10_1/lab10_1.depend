@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1658789567 source:c:\users\yuri\documents\lab10_1\fila_desp.c
+	<stdio.h>
+	<stdlib.h>
+	"fila_desp.h"
+
+1658789011 c:\users\yuri\documents\lab10_1\fila_desp.h
+
+1658789506 source:c:\users\yuri\documents\lab10_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila_desp.h"
+
