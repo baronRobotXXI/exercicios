@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1659103173 source:c:\users\yuri\documents\trab2_3\conversor.c
+	<stdio.h>
+	<stdlib.h>
+	"conversor.h"
+
+1659102933 c:\users\yuri\documents\trab2_3\conversor.h
+
+1659102979 source:c:\users\yuri\documents\trab2_3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"conversor.h"
+
