@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1659047830 source:c:\users\yuri\documents\trab2_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha_est.h"
+
+1658955900 c:\users\yuri\documents\trab2_1\pilha_est.h
+
+1659052483 source:c:\users\yuri\documents\trab2_1\pilha_est.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha_est.h"
+
