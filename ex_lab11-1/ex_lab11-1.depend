@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1659394962 source:c:\users\yuri\documents\ex_lab11-1\fila_dyn_2str.c
+	<stdio.h>
+	<stdlib.h>
+	"fila_dyn_2str.h"
+
+1659394600 c:\users\yuri\documents\ex_lab11-1\fila_dyn_2str.h
+
+1659394687 source:c:\users\yuri\documents\ex_lab11-1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila_dyn_2str.h"
+
