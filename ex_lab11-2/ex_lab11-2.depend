@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1659407775 source:c:\users\yuri\documents\ex_lab11-2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fila_dyn_circ.h"
+
+1659406105 c:\users\yuri\documents\ex_lab11-2\fila_dyn_circ.h
+
+1659407945 source:c:\users\yuri\documents\ex_lab11-2\fila_dyn_circ.c
+	<stdio.h>
+	<stdlib.h>
+	"fila_dyn_circ.h"
+
