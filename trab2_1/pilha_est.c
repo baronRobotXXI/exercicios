@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "pilha_est.h"
 
 #define MAX 50
@@ -71,47 +72,34 @@ int Peek(Pilha* p, int* verif){
     return 1;
 }
 
-int Palindromo (Pilha* p){
-    int tam;
-    int metade;
-    int i;
-    int verif;
-    int item;
-    int item2;
+int Palindromo (char* vet){
     Pilha* aux;
-    Pilha* cmp;
+    int i;
+    int tam;
+    int meio;
+    int elemento;
 
-    cmp = CriaPilha();
+    aux = CriaPilha();
+    tam = strlen(vet);
+    meio = tam / 2;
 
-    aux = p;
-    verif = 0;
+    for (i = 0; i < meio; i++)
+        Push(aux, vet[i]);
 
-    tam = p->topo + 1;
-    metade = tam / 2;
+    if (tam % 2 == 1)
+        i++;
 
-    if (PilhaVazia(p))
-        return 0;                       //se a pilha eh vazia, nao faz sentido
+    while (!PilhaVazia(aux)){
+        Pop(aux, &elemento);
 
-    for (i = 0; i <= metade; i++){      //supondo que a palavra tenha letras impares.
-       Pop(aux, &item);                 //7 / 2 = 3. Se for i < metade, ele so vai até 2. O dobro de 2 está longe de 7.
-       Push(cmp, item);                 //ate na metade, empilha de uma na outra
+        if (elemento != vet[i])
+            return 0;
+
+        i++;
     }
 
-    do{
-        Pop(aux, &item);
-        Pop(cmp, &item2);
 
-        if (item != item2){
-            verif = 1;
-            break;
-        }
-
-    }while (PilhaVazia(aux) || PilhaVazia(cmp));
-
-    if (verif == 1)
-        return 0;       //diferentes, nao eh palindromo
-    else
-        return 1;       //iguais, palindromo
+    return 1;
 
 }
 

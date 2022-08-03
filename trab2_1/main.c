@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "pilha_est.h"
 
 #define PALAVRA 25
@@ -12,7 +13,6 @@ int main(){
     int opcao;
     int elemento;
     int verif;
-    int i;
     char word[PALAVRA];
 
     printf("Querido usuario, digite a opcao desejada:\n");
@@ -91,10 +91,7 @@ int main(){
                 setbuf(stdin, NULL);
                 gets(word);
 
-                for (i = 0; (word+i) != '\0'; i++)
-                    Push(pilha,*word);
-
-                verif = Palindromo(pilha);
+                verif = Palindromo(word);
 
                 if (verif)
                     printf("A palavra %s eh palindromo!\n", word);
@@ -131,7 +128,7 @@ int main(){
                 else
                     printf("Erro ao separar pilha!\n");
 
-                    break;
+                break;
 
             case 8:
                 printf("Os elementos da pilha sao:\n");
