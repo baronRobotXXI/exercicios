@@ -40,6 +40,7 @@ int InsereFim (Fila** f, int elem){
         else{
             novo->prox = (*f)->prox;
             (*f)->prox = novo;
+            *f = novo;
         }
         return 1;
 
