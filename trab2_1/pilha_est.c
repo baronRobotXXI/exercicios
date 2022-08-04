@@ -140,30 +140,30 @@ int Elimina (Pilha* p, int elem){
 
 }
 
-int ParesImpares (Pilha* orig, Pilha* impares){
+int ParesImpares (Pilha** orig, Pilha* impares){
     Pilha* pares;
     int item;
 
-    if (PilhaVazia(orig))
+    if (PilhaVazia((*orig)))
         return 0;           //nao eh possivel realizar a operacao
 
     pares = CriaPilha();
 
-    while (!PilhaVazia(orig)){
-        Peek(orig, &item);
+    while (!PilhaVazia((*orig))){
+        Peek(*orig, &item);
 
         if (item % 2 == 0){
-            Pop(orig, &item);
+            Pop(*orig, &item);
             Push(pares, item);
         }
         else{
-            Pop(orig, &item);
+            Pop(*orig, &item);
             Push(impares, item);
         }
 
     }
 
-    orig = pares;
+    *orig = pares;
     return 1;
 }
 

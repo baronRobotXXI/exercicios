@@ -114,7 +114,7 @@ int main(){
                 break;
 
             case 7:
-                verif = ParesImpares(pilha, impares);
+                verif = ParesImpares(&pilha, impares);
 
                 if (verif){
                     printf("As pilhas separadas sao:\n");

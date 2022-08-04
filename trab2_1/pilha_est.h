@@ -11,7 +11,7 @@ int Pop (Pilha* p, int* retira);
 int Peek(Pilha* p, int* verif);
 int Palindromo (char* vet);
 int Elimina (Pilha* p, int elem);
-int ParesImpares (Pilha* orig, Pilha* impares);
+int ParesImpares (Pilha** orig, Pilha* impares);
 void ImprimePilha (Pilha* p);
 void LiberaPilha (Pilha* p);
 
